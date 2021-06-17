@@ -31,6 +31,7 @@ pipeline {
             echo 'Running unit test...'
           }
         }
+      }
         stage('Integration Test'){
            agent{
               docker{
